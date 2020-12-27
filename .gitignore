@@ -1,0 +1,15 @@
+venv/*
+.idea
+
+# pip stuff
+build/*
+dist/*
+py_dactyl.egg-info/*
+
+# docs
+docs/_build
+docs/_static
+docs/_templates
+
+# test
+.pytest_cache
