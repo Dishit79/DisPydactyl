@@ -17,14 +17,14 @@ if sys.argv[-1] == 'publish':
 
 
 setuptools.setup(
-    name="py-dactyl",
+    name="dis-pydactyl",
     version=VERSION,
     author="Ryan Kubiak",
     author_email="iamkubi@gmail.com",
     description="An easy to use Python wrapper for the Pterodactyl Panel API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/iamkubi/pydactyl",
+    url="https://github.com/Dishit79/DisPydactyl",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -42,6 +42,6 @@ setuptools.setup(
     ],
     project_urls={
         "Documentation": "https://pydactyl.readthedocs.io/",
-        "Source": "https://github.com/iamkubi/pydactyl",
+        "Source": "https://github.com/Dishit79/DisPydactyl",
     }
 )
