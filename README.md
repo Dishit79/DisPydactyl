@@ -1,7 +1,7 @@
 DisPydactyl
 ======
 
-DisPydactyl is working fork of pydactyl. This module has been tested with the new Pterodactyl V1 API and is constantly being updated. If any problem arises make an issue on Github. This module still uses the pydactyl [documentation](https://pydactyl.readthedocs.io/en/latest/) and a rewritten one will be coming soon!
+DisPydactyl is working fork of pydactyl. This module has been tested with the new Pterodactyl V1 API and is constantly being updated. If any problem arises please make an issue on Github. This module still uses the pydactyl [documentation](https://pydactyl.readthedocs.io/en/latest/) and a rewritten one will be coming soon!
 
 
 ## Installation
