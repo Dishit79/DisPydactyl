@@ -6,7 +6,7 @@ import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-with open("dispydactyl/constants.py") as fh:
+with open("pydactyl/constants.py") as fh:
     VERSION = re.search('__version__ = \'([^\']+)\'', fh.read()).group(1)
 
 # 'setup.py publish' shortcut.
