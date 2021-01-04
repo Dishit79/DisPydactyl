@@ -1,5 +1,5 @@
-from pydactyl.api.base import PterodactylAPI
-from pydactyl.responses import PaginatedResponse
+from dispydactyl.api.base import PterodactylAPI
+from dispydactyl.responses import PaginatedResponse
 
 
 class Nests(PterodactylAPI):

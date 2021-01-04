@@ -1,6 +1,6 @@
-from pydactyl.api.base import PterodactylAPI
-from pydactyl.exceptions import BadRequestError
-from pydactyl.responses import PaginatedResponse
+from dispydactyl.api.base import PterodactylAPI
+from dispydactyl.exceptions import BadRequestError
+from dispydactyl.responses import PaginatedResponse
 
 
 class Locations(PterodactylAPI):

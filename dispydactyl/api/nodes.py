@@ -1,7 +1,7 @@
-from pydactyl.api.base import PterodactylAPI
-from pydactyl.constants import USE_SSL
-from pydactyl.exceptions import BadRequestError
-from pydactyl.responses import PaginatedResponse
+from dispydactyl.api.base import PterodactylAPI
+from dispydactyl.constants import USE_SSL
+from dispydactyl.exceptions import BadRequestError
+from dispydactyl.responses import PaginatedResponse
 
 
 class Nodes(PterodactylAPI):

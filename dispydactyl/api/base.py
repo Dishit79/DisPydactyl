@@ -1,8 +1,8 @@
 import requests
 
-from pydactyl.constants import REQUEST_TYPES
-from pydactyl.exceptions import BadRequestError
-from pydactyl.exceptions import PterodactylApiError
+from dispydactyl.constants import REQUEST_TYPES
+from dispydactyl.exceptions import BadRequestError
+from dispydactyl.exceptions import PterodactylApiError
 
 
 def parse_response(response, detail):

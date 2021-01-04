@@ -1,6 +1,6 @@
-from pydactyl.api import base
-from pydactyl.exceptions import BadRequestError
-from pydactyl.responses import PaginatedResponse
+from dispydactyl.api import base
+from dispydactyl.exceptions import BadRequestError
+from dispydactyl.responses import PaginatedResponse
 
 
 class Servers(base.PterodactylAPI):
