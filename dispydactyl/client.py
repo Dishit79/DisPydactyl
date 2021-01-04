@@ -1,10 +1,10 @@
-from pydactyl.api import Client
-from pydactyl.api import Locations
-from pydactyl.api import Nests
-from pydactyl.api import Nodes
-from pydactyl.api import Servers
-from pydactyl.api import User
-from pydactyl.exceptions import ClientConfigError
+from dispydactyl.api import Client
+from dispydactyl.api import Locations
+from dispydactyl.api import Nests
+from dispydactyl.api import Nodes
+from dispydactyl.api import Servers
+from dispydactyl.api import User
+from dispydactyl.exceptions import ClientConfigError
 
 
 class PterodactylClient(object):
