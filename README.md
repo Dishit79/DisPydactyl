@@ -13,7 +13,7 @@ To install this module simply run the command ``pip install git+https://github.c
 
 ```python
 client = PterodactylClient('http://mypanel.com', 'API KEY')
-        e = client.user.create_user(user.id, user.email, user.name,  user.discriminator, external_id=None, password=password, root_admin=False, language='en')
+        e = client.user.create_user(username ,email , first_name, last_name, external_id=None, password=password, root_admin=False, language='en')
         print(e)
         return (True,e['attributes']['id'])
 ```
