@@ -19,8 +19,8 @@ if sys.argv[-1] == 'publish':
 setuptools.setup(
     name="dis-pydactyl",
     version=VERSION,
-    author="Ryan Kubiak",
-    author_email="iamkubi@gmail.com",
+    author="Dishit79",
+    author_email="Dishit79@gmail.com",
     description="An easy to use Python wrapper for the Pterodactyl Panel API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
