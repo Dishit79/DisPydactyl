@@ -17,7 +17,7 @@ if sys.argv[-1] == 'publish':
 
 
 setuptools.setup(
-    name="dis-pydactyl",
+    name="dispydactyl",
     version=VERSION,
     author="Dishit79",
     author_email="Dishit79@gmail.com",
