@@ -6,7 +6,7 @@ DisPydactyl is working fork of pydactyl. This module has been tested with the ne
 
 ## Installation
 
-To install this module simply run the command ``pip install git+https://github.com/Dishit79/DisPydactyl.git#egg=Dis-pydactyl``
+To install this module simply run the command ``pip install git+https://github.com/Dishit79/DisPydactyl.git#egg=Dis-pydactyl`` or [``pip install dis-pydactyl==0.1.15``](https://pypi.org/project/dis-pydactyl/0.1.15/)
 
 
 ## Example of Account Creation
