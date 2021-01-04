@@ -12,8 +12,9 @@ To install this module simply run the command ``pip install git+https://github.c
 ## Example of Account Creation
 
 ```python
+from dispydactyl import PterodactylClient
+
 client = PterodactylClient('http://mypanel.com', 'API KEY')
         e = client.user.create_user(username ,email , first_name, last_name, external_id=None, password=password, root_admin=False, language='en')
-        print(e)
-        return (True,e['attributes']['id'])
+             
 ```
