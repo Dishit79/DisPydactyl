@@ -15,8 +15,8 @@ To install this module simply run the command ``pip install git+https://github.c
 from dispydactyl import PterodactylClient
 
 client = PterodactylClient('http://mypanel.com', 'API KEY')
-        json_data = client.user.create_user(username ,email , first_name, last_name, external_id=None, password=password, root_admin=False, language='en')
-        #returns json data on the newly created user
-        print(json_data)
+json_data = client.user.create_user(username ,email , first_name, last_name, external_id=None, password=password, root_admin=False, language='en')
+#returns json data on the newly created user
+print(json_data)
              
 ```
